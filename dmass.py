@@ -5,7 +5,7 @@ import random
 import time
 
 
-bot = commands.Bot(command_prefix='+', case_insensitive=True)
+bot = commands.Bot(command_prefix='/', case_insensitive=True)
 
 
 @bot.event
@@ -58,4 +58,4 @@ async def send(ctx, *, content: str):
             await ctx.send("DM can't send to : {} :x: ".format(member))
 
 
-bot.run("YOUR BOT'S TOKEN HERE")
+bot.run("NzYxNjY1ODU2ODcwNDE2NDA1.X3d6mw.e32-6F58jmPxFZIr5VtzfYUo9Qw")
